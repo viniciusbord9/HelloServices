@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GestUAB</RootNamespace>
-    <AssemblyName>Gestuab</AssemblyName>
+    <AssemblyName>HelloServices</AssemblyName>
     <ProductVersion>
     </ProductVersion>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -89,6 +89,7 @@
     <Compile Include="Services\CalculatorService.cs" />
     <Compile Include="Services\PetService.cs" />
     <Compile Include="Modules\HomeModule.cs" />
+    <Compile Include="Models\Pet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

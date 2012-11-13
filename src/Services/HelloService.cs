@@ -28,7 +28,7 @@ using Funq;
 using ServiceStack.ServiceHost;
 using ServiceStack.WebHost.Endpoints;
 
-namespace GestUAB
+namespace HelloServices
 {
     /// <summary>
     /// Define your ServiceStack web service request (i.e. the Request DTO).
