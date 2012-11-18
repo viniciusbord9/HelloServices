@@ -31,7 +31,7 @@ using System.Collections.Generic;
 using System.Linq;
 using ServiceStack.ServiceInterface;
 
-namespace GestUAB
+namespace HelloService
 {
     /// <summary>
     /// Define your ServiceStack web service request (i.e. the Request DTO).
