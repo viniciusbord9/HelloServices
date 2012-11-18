@@ -29,7 +29,7 @@ using ServiceStack.ServiceHost;
 using ServiceStack.WebHost.Endpoints;
 using System.Globalization;
 
-namespace GestUAB
+namespace HelloServices
 {
     /// <summary>
     /// Define your ServiceStack web service request (i.e. the Request DTO).

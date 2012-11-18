@@ -30,7 +30,7 @@ using Funq;
 using ServiceStack.ServiceHost;
 using ServiceStack.WebHost.Endpoints;
 
-namespace GestUAB
+namespace HelloServices
 {
 
     /// <summary>

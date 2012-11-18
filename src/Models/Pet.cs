@@ -1,5 +1,5 @@
 //
-// Global.asax.cs
+// Pet.cs
 //
 // Author:
 //       Tony Alexander Hild <tony_hild@yahoo.com>
@@ -23,29 +23,21 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
-
 using System;
-using System.Collections;
-using System.ComponentModel;
-using System.Web;
-using System.Web.SessionState;
-using System.Web.Routing;
-using System.Web.Mvc;
+using ServiceStack.ServiceHost;
 
 namespace HelloServices
 {
-    public class Global : System.Web.HttpApplication
+    /// <summary>
+    /// Define your ServiceStack web service request (i.e. the Request DTO).
+    /// </summary>
+    [Route("/pets")]
+    [Route("/pets/{Id}")]
+    public class Pet
     {
+        public Guid Id { get; set; }
 
-        public void RegisterRoutes(RouteCollection routes) {
-            routes.IgnoreRoute("api/{*pathInfo}");
-        }
-        
-        void Application_Start() {
-            RegisterRoutes(RouteTable.Routes);
-        }
-                
-
+        public string Name { get; set; }
     }
 }
 

@@ -1,1 +1,1 @@
-<%@ Application Inherits="GestUAB.Global" %>
+<%@ Application Inherits="HelloServices.Global" %>

@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GestUAB</RootNamespace>
-    <AssemblyName>Gestuab</AssemblyName>
+    <AssemblyName>HelloServices</AssemblyName>
     <ProductVersion>
     </ProductVersion>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -72,6 +72,9 @@
     <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <Private>False</Private>
     </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\packages\ServiceStack.Text-v1.57\ServiceStack.Text.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,6 +86,7 @@
     <Compile Include="Services\CalculatorService.cs" />
     <Compile Include="Services\PetService.cs" />
     <Compile Include="Modules\HomeModule.cs" />
+    <Compile Include="Models\Pet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

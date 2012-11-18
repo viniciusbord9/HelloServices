@@ -2,7 +2,7 @@
 using Nancy.Routing;
 using Nancy;
 
-namespace GestUAB.Modules
+namespace HelloServices.Modules
 {
     public class HomeModule : NancyModule
     {

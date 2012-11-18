@@ -31,21 +31,8 @@ using System.Collections.Generic;
 using System.Linq;
 using ServiceStack.ServiceInterface;
 
-namespace HelloService
+namespace HelloServices
 {
-    /// <summary>
-    /// Define your ServiceStack web service request (i.e. the Request DTO).
-    /// </summary>
-    [Route("/pets")]
-    [Route("/pets/{Id}")]
-    public class Pet
-    {
-        public Guid Id { get; set; }
-
-        public string Name { get; set; }
-    }
-    
-   
     /// <summary>
     /// Create your ServiceStack web service implementation.
     /// </summary>
